@@ -35,7 +35,7 @@ function App() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
-          <span className="text-white font-bold text-lg tracking-wide">Luxe Boutique</span>
+          <span className="text-white font-bold text-lg tracking-wide">SetupPro</span>
           <Link to="/cart" className="text-white text-xl relative">
             🛒
             {getTotalItems() > 0 && (
