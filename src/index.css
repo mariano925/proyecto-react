@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@keyframes slide-down {
+  from { transform: translateY(-120%); opacity: 0; }
+  to   { transform: translateY(0);     opacity: 1; }
+}
+@keyframes shrink {
+  from { width: 100%; }
+  to   { width: 0%; }
+}
+.animate-slide-down { animation: slide-down 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+.animate-shrink-bar { animation: shrink 3.5s linear forwards; }
