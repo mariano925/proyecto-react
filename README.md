@@ -85,7 +85,7 @@ getTotal() → calcula el total de la compra.
 
 Permite que cualquier componente (ItemDetail, Cart, CheckoutForm) acceda al estado sin necesidad de pasar props en cadena.
 
-👉 Esto asegura que tu aplicación sea escalable y fácil de mantener.
+👉 Esto asegura que la aplicación sea escalable y fácil de mantener.
 
 📂 Carpeta firebase/
 config.js
